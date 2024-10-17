@@ -4,7 +4,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("introduzca un número entero, por favor:");
         int numero= scanner.nextInt();
-        int numeroCifras = 0;
+        numero = numero /10;
+        int numeroCifras = 1;
          while (numero != 0) {
              numero = numero / 10;
              numeroCifras = numeroCifras + 1;
